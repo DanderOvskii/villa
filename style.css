@@ -1,0 +1,82 @@
+header{
+
+    display: flex;
+    background-color: black;
+    height: 90px;
+    align-items: center;
+    font-style: none;
+}
+
+header > img{
+    margin-left: 30px;
+    
+}
+
+header > a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(163, 141, 87);
+}
+
+
+footer {
+    position: fixed;
+    color: rgb(163, 141, 87);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.tekst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tekst > a{
+    text-decoration: none;
+    color: rgb(163, 141, 87);
+    margin-right: 100px;
+    
+}
+
+.tekst > span{
+    color: rgb(163, 141, 87);
+    padding-right: 70px;
+    font-size: xx-large;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.copy{
+    text-align: center;
+}
+
+/* hier eindigd de footer code*/
+
+.titel{
+    text-align:center;
+}
+
+.contactform {
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 38%;
+    margin-right: 50%;
+    justify-content: flex-end;
+    width: 25%;
+}
+
+.contactform > p > input {
+    float: right;
+    background-color: black;
+    border: none;
+    border-radius: 1px;
+    color: rgb(163, 141, 87);
+}
+
