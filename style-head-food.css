@@ -2,7 +2,7 @@ header{
 
     display: flex;
     background-color: black;
-    height: 90px;
+    height: 10vh;
     align-items: center;
     font-style: none;
 }
@@ -42,12 +42,14 @@ footer {
     left: 0;
     width: 100%;
     background-color: black;
+    height: 20vh;
 }
 
 .tekst{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 8vh;
 }
 
 .tekst > a{
@@ -71,4 +73,5 @@ footer {
 
 .copy{
     text-align: center;
+    margin-top: 10px;
 }
