@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 header{
 
     display: flex;
@@ -18,6 +24,24 @@ header > a{
     color: rgb(163, 141, 87);
 }
 
+.buttons{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.buttons > button{
+    color: rgb(163, 141, 87);
+    margin-left: 20px;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid rgb(163, 141, 87);
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
 
 footer {
     position: fixed;
@@ -26,6 +50,7 @@ footer {
     left: 0;
     width: 100%;
     background-color: black;
+    height: 200px;
 }
 
 .tekst{
@@ -80,3 +105,33 @@ footer {
     color: rgb(163, 141, 87);
 }
 
+
+
+.image-slideshow {
+    
+    position: relative;
+    margin: auto;
+}
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    
+    
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+  @keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+  }
+
+
+
+
+  .mid{
+    height: 200vh;
+    width: 100%;
+  }
