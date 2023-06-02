@@ -1,0 +1,85 @@
+header{
+
+    display: flex;
+    background-color: black;
+    height: 10vh;
+    align-items: center;
+    font-style: none;
+}
+
+header > img{
+    margin-left: 30px;
+    
+}
+
+header > a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(163, 141, 87);
+}
+
+.buttons{
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.buttons > button{
+    color: rgb(163, 141, 87);
+    margin-left: 20px;
+    background-color: black;
+    border-radius: 5px;
+    border-color:rgb(163, 141, 87);
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+/* einde van de code van de header */
+/* dit is het begin van de footer code */
+
+footer {
+    color: rgb(163, 141, 87);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+}
+
+.tekst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    gap: 100px;
+    
+}
+
+.tekst > a{
+    text-decoration: none;
+    color: rgb(163, 141, 87);
+    text-align: center;
+    
+    
+}
+
+
+
+.img{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.copy{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
