@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(163, 141, 87);
+    
+}
+
+/* begin header code */
+
+header{
+
+    display: flex;
+    background-color: black;
+    height: 90px;
+    align-items: center;
+    font-style: none;
+}
+
+header > img{
+    margin-left: 30px;
+    
+}
+
+header > a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(163, 141, 87);
+}
+
+.buttons{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.buttons > button{
+    color: rgb(163, 141, 87);
+    margin-left: 20px;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid rgb(163, 141, 87);
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+/* einde van de code van de header */
+/* dit is het begin van de footer code */
+
+footer {
+    position: fixed;
+    color: rgb(163, 141, 87);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.tekst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tekst > a{
+    text-decoration: none;
+    color: rgb(163, 141, 87);
+    margin-right: 100px;
+    
+}
+
+.tekst > span{
+    color: rgb(163, 141, 87);
+    padding-right: 70px;
+    font-size: xx-large;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.copy{
+    text-align: center;
+}
+
+/* hier eindigd de footer code*/
+
+.titel{
+    text-align:center;
+}
+
+.contactform {
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 38%;
+    margin-right: 50%;
+    justify-content: flex-end;
+    width: 25%;
+}
+
+.contactform > p > input {
+    float: right;
+    background-color: black;
+    border: none;
+    border-radius: 1px;
+    color: rgb(163, 141, 87);
+}
+
+.contactform > p > textarea{
+    float: right;
+    background-color: black;
+    border: none;
+    border-radius: 1px;
+    color: rgb(163, 141, 87);
+}
+
+.contactform > button{
+    color: black;
+    margin-left: 20px;
+    background-color: rgb(163, 141, 87);
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid black;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+.vraag{
+    width: 60%;
+    height: 100px;
+}
+
+
