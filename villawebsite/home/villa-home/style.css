@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    overflow: hidden;
+}
+
+.title{
+    position: absolute;
+    width: 100%;
+    height: 35vh;
+    box-sizing: border-box;
+    
+    
+}
+
+.header{
+    
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10%;
+    color: rgb(163, 141, 87);
+}
+
+.subtext{
+    text-align: center;
+    font-size: 19px;
+    color: aliceblue;
+}
+
+.images{
+    position: absolute;
+    width: 80%;
+    height: 45vh;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    top: 45vh;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    
+}
+
+.villa-button > a > img{
+    border-radius: 20px;
+}
+
+.villa-button > img{
+    border-radius: 20px;
+}
+
+.villa-button{
+    border-radius: 20px;
+    height: 150px;
+    width: 300px;
+
+}
+
+
+.image-slideshow {
+    z-index: -5;
+    position: relative;
+    margin: auto;
+    height:80vh ;
+}
+.image-slideshow img {
+    object-fit: cover;
+    width: 100%;
+    height: 80vh;
+    
+    
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+  @keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+  }

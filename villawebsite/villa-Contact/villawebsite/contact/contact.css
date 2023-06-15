@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(163, 141, 87);
+    
+}
+
+.mid{
+    width: 100%;
+    height: 80vh;
+    padding-top: 20vh;
+}
+
+/* hier eindigd de footer code*/
+
+.titel{
+    text-align:center;
+}
+
+.contactform {
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 38%;
+    margin-right: 50%;
+    justify-content: flex-end;
+    width: 25%;
+    font-size: 15px;
+}
+
+.contactform > p > input {
+    float: right;
+    background-color: rgb(135, 117, 73);
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    height: 25px;
+    
+}
+
+.contactform > p > textarea{
+    float: right;
+    background-color: rgb(135, 117, 73);
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.contactform > button{
+    color: black;
+    margin-left: 20px;
+    background-color: rgb(163, 141, 87);
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid black;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+.vraag{
+    width: 60%;
+    height: 100px;
+}
+
+
